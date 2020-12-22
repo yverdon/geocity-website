@@ -1,15 +1,19 @@
-version: '3.8'
+  version: '3.8'
 
-services:
-  api:
-    image: wagtail:0.0.1
-    environment:
-      DEPLOY_ENV: ${DEPLOY_ENV:-DEV}
-    restart: unless-stopped
-    build:
-      context: .
-      dockerfile: Dockerfile
-      network: host
-    ports:
-      - "${PORT:-8082}:8082"
-    command: python manage.py runserver
+  services:
+    api:
+      image: wagtail:0.0.1
+      environment:
+        DEPLOY_ENV: ${DEPLOY_ENV:-DEV}
+        DJANGO_DB_NAME: ${DJANGO_DB_NAME}
+        DJANGO_SU_NAME: ${DJANGO_SU_NAME}
+        DJANGO_SU_EMAIL: ${DJANGO_SU_EMAIL}
+        DJANGO_SU_PASSWORD: ${DJANGO_SU_PASSWORD}
+      restart: unless-stopped
+      build:
+        context: .
+        dockerfile: Dockerfile
+        network: host
+      ports:
+        - "${PORT:-8082}:8082"
+      command: bash -c "python manage.py migrate && python manage.py runserver"
