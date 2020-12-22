@@ -8,7 +8,8 @@ services:
     restart: unless-stopped
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
       network: host
     ports:
       - "${PORT:-8082}:8082"
+    command: python manage.py runserver

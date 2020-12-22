@@ -22,10 +22,12 @@ RUN apt-get -yq update && apt-get -yq install --no-install-recommends \
     libjpeg62-turbo-dev \
     zlib1g-dev \
     libwebp-dev \
+    httpie wget curl nano \
     && rm -rf /var/lib/apt/lists/*
 
 # Install the application server.
-RUN pip install "gunicorn==20.0.4"
+RUN pip install --upgrade pip \
+  && pip install "gunicorn==20.0.4"
 
 # Install the project requirements.
 COPY requirements.txt /
