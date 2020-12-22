@@ -16,4 +16,4 @@
         network: host
       ports:
         - "${PORT:-8082}:8082"
-      command: bash -c "python manage.py migrate && python manage.py runserver"
+      command: bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8082"
