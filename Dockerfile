@@ -29,12 +29,13 @@ RUN apt-get -yq update && apt-get -yq install --no-install-recommends \
 RUN pip install --upgrade pip \
   && pip install "gunicorn==20.0.4"
 
-# Install the project requirements.
-COPY requirements.txt /
-RUN pip install -r /requirements.txt
 
 # Use /app folder as a directory where the source code is stored.
 WORKDIR /app
+
+# Install the project requirements.
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
 # Set this directory to be owned by the "wagtail" user. This Wagtail project
 # uses SQLite, the folder needs to be owned by the user that
