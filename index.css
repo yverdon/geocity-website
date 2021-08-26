@@ -3,27 +3,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 /*********** COMMON ***********/
+
+:root {
+    --max-width: 1200px;
+    --margin-left: 15%;
+}
+
 *{margin:0;padding:0}
-html{font-size:100%}
-body{font-size:12px;text-align:center;color: black}
+html{ 
+    font-size:100%;
+}
+body {
+    font-size:12px;
+    text-align:center;
+    color: rgb(37, 32, 32);
+}
+
+body a {
+    color: white;
+    text-decoration: none;
+}
 
 /*********** FONTS ***********/
 body{font-family: "Roboto", "Helvetica", "Arial"}
-.codeblock{font-family:monospace}
-
-
 
 h1 {
     font-size: 5em;
 }
+
 h2 {
     font-size: 3em;
 }
+
 h3 {
     font-size: 2em;
 }
+
+#home {
+    font-size: 3em;
+    margin-left: var(--margin-left);
+}
+
+/* MENU */
+
+
+#menu {
+    padding-top: 10px;
+}
+#menu-items {
+    font-size: 2em;
+    margin-left: 200px;
+}
+
 #intro h3 {
-    margin-left: 15%;
+    margin-left: var(--margin-left);
     text-align: left;
     padding-top: 10px;
 }
@@ -32,48 +65,55 @@ h3 {
     width: 100%;
     height: 600px;
     background-color: #008c6f;
-    background-image: linear-gradient(45deg, #008c6f, #a3d2c8);
+    background-image: url(static/images/login_geocity.svg), linear-gradient(45deg, #008c6f, #a3d2c8);
+    background-repeat: no-repeat;
+    background-position-x: 90%, 100%;
+    background-position-y: 100px, 0;
+    background-size: 700px, 100%;
     color: white;
+    text-align: left;
 }
 #intro-text {
     padding-top: 100px;
-    width: 500px;
-    margin-left: 15%;
     text-align: left;
+    max-width: 600px;
+    margin-left: var(--margin-left);
 }
 
-#background-image {
-    position: absolute;
-    top: 50px;
-    right: 100px;
-    height: 500px;
-}
-
-#features {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-#partners span {
-    height: 200px;
-    font-size: 3em;
-    color: #008c6f;
-}
-
-#partners {
-    padding-top:20px;
-    height: 100px;
-    padding-bottom: 20px;
-    color:  #474747;
-
-}
-
-#features {
+.content-block {
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
     color: #474747;
     font-size: 2em;
     text-align: left;
-    vertical-align: top;
-    padding-left: 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content-block img {
+    width: 500px;
+}
+
+
+.feature {
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+}
+
+.features-images {
+    width: var(--items-width);
+}
+.features-text {
+    width: var(--items-width);
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.features-text img {
+    max-width: 80px;
+    height: auto;
 }
 
 footer {
@@ -83,23 +123,127 @@ footer {
     color: white;
     padding-top: 10px;
     text-align: left;
-    padding-left: 15%;
+    padding-left: var(--margin-left);
 }
 
-.small-line {
-    color: #474747;
-    width: 200px;
-    margin-left: calc(50% - 100px);
+
+#partners-logos {
+    max-width:var(--max-width);
 }
 
-.feature {
-    margin-top: 20px;
+#partners-logos img {
+    margin: 20px 20px 20px 20px;
+    max-width: 250px;
+    height: auto;
 }
 
-.features-images {
-    width: 500px;
-}
-.features-text {
-    width: 500px;
+/* ARROW */
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
     display: inline-block;
+    padding: 20px;
+    color: #474747;
+  }
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    position: absolute;
+    left: 50%;
 }
+
+  /* MOBILE  */
+
+  @media (max-width: 768px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    #home {
+        font-size: 2em;
+        margin-left: var(--margin-left);
+    }
+    
+    /* MENU */
+    
+    #menu {
+        padding-top: 10px;
+    }
+    #menu-items {
+        display: none;
+    }
+    
+    #intro h3 {
+        margin-left: 10px;
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    #intro {
+        height: 400px;
+        background-color: #008c6f;
+        background-image: url(static/images/login_geocity.svg), linear-gradient(45deg, #008c6f, #a3d2c8);
+        background-repeat: no-repeat;
+        background-position-x: 90%, 100%;
+        background-position-y: 25px, 0;
+        background-size: 300px, 100%;
+        color: white;
+        text-align: left;
+    }
+
+    #intro-text {
+        padding-top: 175px;
+        text-align: left;
+        max-width: 300px;
+        margin-left: var(--margin-left);
+    }
+
+    .content-block {
+        max-width: 250px;
+        margin-left: 10%;
+        margin-right: auto;
+        color: #474747;
+        font-size: 2em;
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .feature {
+        margin-top: 32px;
+        flex-wrap: wrap;
+    }
+
+    .feature-right {
+        flex-direction: row-reverse;
+    }
+    
+    .features-images {
+        max-width: 300px;
+    }
+
+    .features-text {
+        width: var(--items-width);
+        margin: 0;
+    }
+
+    #partners-logos img {
+        margin: 10px 10px 10px 10px;
+        max-width: 200px;
+    }
+    .arrow {
+        display: none;
+    }
+  }
