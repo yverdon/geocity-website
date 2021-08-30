@@ -25,6 +25,7 @@ body a {
 }
 
 /*********** FONTS ***********/
+
 body{font-family: "Roboto", "Helvetica", "Arial"}
 
 h1 {
@@ -45,7 +46,6 @@ h3 {
 }
 
 /* MENU */
-
 
 #menu {
     padding-top: 10px;
@@ -73,12 +73,15 @@ h3 {
     color: white;
     text-align: left;
 }
+
 #intro-text {
     padding-top: 100px;
     text-align: left;
     max-width: 600px;
     margin-left: var(--margin-left);
 }
+
+/* CONTENT */
 
 .content-block {
     max-width: var(--max-width);
@@ -94,7 +97,6 @@ h3 {
 .content-block img {
     width: 500px;
 }
-
 
 .feature {
     margin-top: 96px;
@@ -116,16 +118,7 @@ h3 {
     height: auto;
 }
 
-footer {
-    background-color: #008c6f;
-    background-image: linear-gradient(45deg, #008c6f, #a3d2c8);
-    height: 100px; 
-    color: white;
-    padding-top: 10px;
-    text-align: left;
-    padding-left: var(--margin-left);
-}
-
+/* PARTNERS */
 
 #partners-logos {
     max-width:var(--max-width);
@@ -136,6 +129,19 @@ footer {
     max-width: 250px;
     height: auto;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #008c6f;
+    background-image: linear-gradient(45deg, #008c6f, #a3d2c8);
+    height: 100px; 
+    color: white;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: var(--margin-left);
+}
+
 
 /* ARROW */
 
@@ -174,12 +180,13 @@ footer {
         font-size: 2em;
         margin-left: var(--margin-left);
     }
-    
+
     /* MENU */
-    
+
     #menu {
         padding-top: 10px;
     }
+
     #menu-items {
         display: none;
     }
@@ -210,39 +217,38 @@ footer {
     }
 
     .content-block {
-        max-width: 250px;
+        max-width: 300px;
         margin-left: 10%;
         margin-right: auto;
-        color: #474747;
         font-size: 2em;
-        text-align: left;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
-
     .feature {
-        margin-top: 32px;
         flex-wrap: wrap;
     }
 
     .feature-right {
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
     }
     
     .features-images {
         max-width: 300px;
+        margin-bottom: 32px;
     }
 
     .features-text {
         width: var(--items-width);
         margin: 0;
+
     }
 
     #partners-logos img {
         margin: 10px 10px 10px 10px;
         max-width: 200px;
     }
+
     .arrow {
         display: none;
     }
