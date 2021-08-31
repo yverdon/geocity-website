@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="b954c258-ebd6-43b8-aaa6-ec167673194d"
+   data-name="Layer 1"
+   width="861.50885"
+   height="235.60216"
+   viewBox="0 0 861.50887 235.60215"
+   version="1.1"
+   sodipodi:docname="logo-geocity.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata85">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs83">
+    <rect
+       x="35.97953"
+       y="28.21924"
+       width="812.71411"
+       height="179.19218"
+       id="rect968" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     id="namedview81"
+     showgrid="false"
+     inkscape:zoom="1.0023045"
+     inkscape:cx="762.32379"
+     inkscape:cy="173.55932"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="b954c258-ebd6-43b8-aaa6-ec167673194d" />
+  <text
+     xml:space="preserve"
+     id="text966"
+     style="font-style:normal;font-weight:normal;font-size:74.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect968);fill:#000000;fill-opacity:1;stroke:none;"
+     transform="matrix(3.1414646,0,0,3.2007809,-126.40145,-140.58925)"><tspan
+       x="35.980469"
+       y="96.339446"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Titillium Web';-inkscape-font-specification:'Titillium Web';fill:#008c6f;fill-opacity:1">GEO</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Titillium Web';-inkscape-font-specification:'Titillium Web Bold';fill:#008c6f;fill-opacity:1">CITY</tspan></tspan></text>
+  <g
+     id="g980"
+     transform="matrix(0.97574445,0,0,0.97574445,-3.5760039,-47.853066)">
+    <text
+       id="text976"
+       y="278.38864"
+       x="3.6329"
+       style="font-style:normal;font-weight:normal;font-size:52.2106px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.08772"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.2106px;font-family:'Titillium Web';-inkscape-font-specification:'Titillium Web Semi-Bold';fill:#5a5a5a;fill-opacity:1;stroke-width:1.08772"
+         y="278.38864"
+         x="3.6329"
+         id="tspan974"
+         sodipodi:role="line">Formulaires - Cartographie - Calendrier</tspan></text>
+  </g>
+</svg>
