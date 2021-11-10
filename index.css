@@ -17,11 +17,16 @@ body {
     font-size:12px;
     text-align:center;
     color: rgb(37, 32, 32);
+    --primary: #008c6f;
 }
 
 body a {
     color: white;
     text-decoration: none;
+}
+
+.demo-link {
+    color: var(--primary);
 }
 
 /*********** FONTS ***********/
@@ -94,6 +99,10 @@ h3 {
     padding-bottom: 100px;
 }
 
+.container {
+    text-align: left;
+}
+
 .content-block img {
     width: 500px;
 }
@@ -130,6 +139,10 @@ h3 {
     height: auto;
 }
 
+.text-left {
+    text-align: left !important;
+}
+
 /* FOOTER */
 
 footer {
@@ -159,6 +172,47 @@ footer {
     position: absolute;
     left: 50%;
 }
+
+/**************
+/*Bootrap*/
+/**************
+
+/*Specification Grid & Accordion*/
+
+.row {
+    font-size: 1.2em;
+    text-align:left;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    font-size: 0.7em !important;
+}
+
+.accordion-button:focus {
+    background-color: #008c6f !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 -1px 0 rgba(0,140,111,.125) !important;
+    border-color: black !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff !important;
+    background-color: #008c6f !important;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+    transform: rotate(-180deg);
+}
+
+.list-group-item {
+    border: 0 !important;
+}
+
 
   /* MOBILE  */
 
