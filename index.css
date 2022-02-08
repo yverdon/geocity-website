@@ -213,6 +213,12 @@ footer {
     border: 0 !important;
 }
 
+.block-separator {
+    max-width: 1024px;
+    border-bottom: none;
+    height: 1px;
+    margin: 40 auto;
+}
 
   /* MOBILE  */
 
@@ -231,7 +237,7 @@ footer {
     }
 
     #home {
-        font-size: 2em;
+        font-size: 2.2em;
         margin-left: var(--margin-left);
     }
 
@@ -252,7 +258,7 @@ footer {
     }
 
     #intro {
-        height: 400px;
+        height: 450px;
         background-color: #008c6f;
         background-image: url(static/images/login_geocity.svg), linear-gradient(45deg, #008c6f, #a3d2c8);
         background-repeat: no-repeat;
@@ -270,6 +276,10 @@ footer {
         margin-left: var(--margin-left);
     }
 
+    #intro-text h1 {
+        font-size: 3em;
+    }
+
     .content-block {
         max-width: 300px;
         margin-left: 10%;
@@ -281,6 +291,7 @@ footer {
 
     .feature {
         flex-wrap: wrap;
+        margin: 0;
     }
 
     .feature-right {
@@ -298,6 +309,22 @@ footer {
 
     }
 
+    .container {
+        max-width: 340px;
+    }
+
+    .container h2{
+        font-size: 1.8em;
+    }
+
+    .container h3{
+        font-size: 1.6em;
+    }
+
+    #partners-logos {
+        text-align: center;
+    }
+    
     #partners-logos img {
         margin: 10px 10px 10px 10px;
         max-width: 200px;
