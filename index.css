@@ -139,6 +139,10 @@ h3 {
     height: auto;
 }
 
+#form {
+    color: rgb(95, 31, 31) !important;
+}
+
 .text-left {
     text-align: left !important;
 }

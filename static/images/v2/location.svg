@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   data-name="Layer 1"
+   width="910.90802"
+   height="704.99598"
+   viewBox="0 0 910.90802 704.99598"
+   version="1.1"
+   id="svg64"
+   sodipodi:docname="location.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs68" />
+  <sodipodi:namedview
+     id="namedview66"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.1735543"
+     inkscape:cx="455.45401"
+     inkscape:cy="352.77448"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-718"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg64" />
+  <ellipse
+     cx="697.31696"
+     cy="542.77039"
+     rx="48.50275"
+     ry="98.96521"
+     fill="#3f3d56"
+     id="ellipse2" />
+  <path
+     d="M837.38391,802.26252c19.42584-116.55145.19556-232.68182-.00091-233.84027l-3.77869.64008c.19556,1.15289,19.31543,116.67309-.00092,232.57135Z"
+     transform="translate(-144.54599 -97.50201)"
+     fill="#cacaca"
+     id="path4" />
+  <rect
+     x="818.26998"
+     y="607.54206"
+     width="3.83319"
+     height="49.73956"
+     transform="translate(-268.85332 959.85926) rotate(-61.8584)"
+     fill="#cacaca"
+     id="rect6" />
+  <rect
+     x="841.60854"
+     y="642.25327"
+     width="49.74127"
+     height="3.83319"
+     transform="translate(-345.98446 387.63054) rotate(-28.15796)"
+     fill="#cacaca"
+     id="rect8" />
+  <ellipse
+     cx="813.85468"
+     cy="386.14381"
+     rx="94.86566"
+     ry="193.56433"
+     fill="#e6e6e6"
+     id="ellipse10" />
+  <path
+     d="M947.83405,800.179c37.944-227.6604.38275-454.49169-.00092-456.75628l-3.77869.64007c.38275,2.259,37.83362,228.48017-.00091,455.48737Z"
+     transform="translate(-144.54599 -97.50201)"
+     fill="#cacaca"
+     id="path12" />
+  <rect
+     x="914.08784"
+     y="419.62722"
+     width="3.83319"
+     height="97.28711"
+     transform="translate(-73.4911 957.62642) rotate(-61.8584)"
+     fill="#cacaca"
+     id="rect14" />
+  <rect
+     x="957.90319"
+     y="489.35201"
+     width="97.28717"
+     height="3.83319"
+     transform="translate(-257.25314 435.62254) rotate(-28.15742)"
+     fill="#cacaca"
+     id="rect16" />
+  <path
+     d="M738.0755,800.78724H233.47931a7.00818,7.00818,0,0,1-7-7V474.94154a7.00785,7.00785,0,0,1,7-7H738.0755a7.00817,7.00817,0,0,1,7,7v318.8457A7.00848,7.00848,0,0,1,738.0755,800.78724Z"
+     transform="translate(-144.54599 -97.50201)"
+     fill="#e4e4e4"
+     id="path18" />
+  <path
+     d="M279.88361,506.57923a3.00328,3.00328,0,0,0-3,3V759.15052a3.00328,3.00328,0,0,0,3,3H691.6712a3.00328,3.00328,0,0,0,3-3V509.57923a3.00328,3.00328,0,0,0-3-3Z"
+     transform="translate(-144.54599 -97.50201)"
+     fill="#fff"
+     id="path20" />
+  <path
+     d="M695.67095,570.85921V555.04439H637.4373V505.57918H621.62236v49.46521H517.94707V505.57918H502.13262v49.46521H342.22685V505.57918H326.41191v49.46521H271.11748v15.81482h55.29443v61.50214H271.11748v15.81482h55.29443v65.89514H271.11748v15.81482h140.519V763.15h15.81494V729.88613h74.68116V763.15h15.81445V729.88613H695.67095V714.07131H517.94707V648.17617H695.67095V632.36135H637.4373V570.85921Zm-193.53833,0v19.32928H342.22685V570.85921Zm-159.90577,35.1441H502.13262v26.358H342.22685Zm0,108.068V648.17617h69.40967v65.89514Zm159.90577,0H427.45146V648.17617h74.68116Zm119.48974-81.71H517.94707V570.85921H621.62236Z"
+     transform="translate(-144.54599 -97.50201)"
+     fill="#e6e6e6"
+     id="path22" />
+  <circle
+     cx="365.49384"
+     cy="544.76679"
+     r="20.20782"
+     fill="#d01f25"
+     id="circle24" />
+  <polygon
+     points="910.513 704.996 0 704.996 0 702.814 910.908 702.814 910.513 704.996"
+     fill="#cacaca"
+     id="polygon26" />
+  <circle
+     cx="367.91605"
+     cy="300.06687"
+     r="124.6554"
+     fill="#d01f25"
+     id="circle28" />
+  <polygon
+     points="369.135 502.707 329.753 435.433 290.371 368.159 368.323 367.69 446.275 367.221 407.705 434.964 369.135 502.707"
+     fill="#d01f25"
+     id="polygon30" />
+  <circle
+     cx="368.91666"
+     cy="299.28272"
+     r="44.72449"
+     fill="#fff"
+     id="circle32" />
+  <circle
+     cx="162.4257"
+     cy="254.39919"
+     r="79"
+     fill="#2f2e41"
+     id="circle82" />
+  <rect
+     x="126.42567"
+     y="316.3992"
+     width="24"
+     height="43"
+     fill="#2f2e41"
+     id="rect84" />
+  <rect
+     x="174.4257"
+     y="316.3992"
+     width="24"
+     height="43"
+     fill="#2f2e41"
+     id="rect86" />
+  <ellipse
+     cx="146.4257"
+     cy="359.8992"
+     rx="20"
+     ry="7.5"
+     fill="#2f2e41"
+     id="ellipse88" />
+  <ellipse
+     cx="194.4257"
+     cy="358.8992"
+     rx="20"
+     ry="7.5"
+     fill="#2f2e41"
+     id="ellipse90" />
+  <circle
+     cx="164.4257"
+     cy="234.39919"
+     r="27"
+     fill="#ffffff"
+     id="circle92" />
+  <circle
+     cx="164.4257"
+     cy="234.39919"
+     r="9"
+     fill="#3f3d56"
+     id="circle94" />
+  <path
+     d="m 85.793015,180.93146 c -6.37889,-28.56758 14.01185,-57.43392 45.544005,-64.47477 31.53215,-7.04085 62.2651,10.41 68.644,38.9776 6.3789,28.5676 -14.51861,39.10379 -46.05075,46.14464 -31.53214,7.04085 -61.758365,7.92011 -68.137255,-20.64747 z"
+     fill="#d01f25"
+     id="path96" />
+  <ellipse
+     cx="123.53983"
+     cy="300.05777"
+     rx="39.5"
+     ry="12.40027"
+     transform="rotate(-23.17116)"
+     fill="#2f2e41"
+     id="ellipse98" />
+  <ellipse
+     cx="-33.375977"
+     cy="290.54758"
+     rx="39.5"
+     ry="12.40027"
+     transform="rotate(-23.17116)"
+     fill="#2f2e41"
+     id="ellipse100" />
+  <path
+     d="m 208.42569,277.39918 c 0,7.732 -19.90861,23 -42,23 -22.09139,0 -43,-14.268 -43,-22 0,-7.732 20.90861,-6 43,-6 22.09139,0 42,-2.732 42,5 z"
+     fill="#ffffff"
+     id="path102" />
+</svg>
