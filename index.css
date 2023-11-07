@@ -147,6 +147,58 @@ h3 {
     text-align: left !important;
 }
 
+/* FORMS */
+.row{
+    height: 300px;
+    border:none !important;
+}
+
+.gride_el {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+.formimage {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: fill;
+    z-index: 2;
+}
+.form-container{
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008c6f;
+    z-index: 1;
+  }
+  
+  .gride_el:hover .overlay {
+    opacity: 1;
+  }
+  
+  .formtext {
+    color: white;
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
 /* FOOTER */
 
 footer {
