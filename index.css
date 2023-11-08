@@ -157,6 +157,10 @@ h3 {
     height:100%;
 }
 
+.card:hover {
+    border: 2px solid #008c6f;
+}
+
 .card-img-top{
     display:block;
     width: auto !important;
