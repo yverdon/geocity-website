@@ -103,7 +103,7 @@ h3 {
     color: #474747;
     font-size: 2em;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 100px;
 }
 
@@ -156,9 +156,10 @@ h3 {
     text-align: left !important;
 }
 
-/* FOOTER */
 
-footer {
+/* FOOTER & HEADER */
+
+footer, header {
     background-color: #008c6f;
     background-image: linear-gradient(45deg, #008c6f, #a3d2c8);
     height: 100px;
